@@ -6,13 +6,14 @@ body {
     background-color: black;
     /* cor da fonte branca */
     color: white;
-
 }
 
 header {
 
     /* colocando a imagem no fundo do header e junto colocando um gradiente em cima dessa imagem */
-    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.1), rgb(0, 0, 0)), url(Imagens/header_background.png);
+    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.2), rgb(0, 0, 0)), url(Imagens/header_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 
     padding: 20px;
     margin-bottom: 0;
@@ -34,6 +35,10 @@ header {
     /* Todos os textos do header centralizados na tela */
     p {
         text-align: center;
+        width: 600px;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
     }
 }
 
@@ -48,8 +53,7 @@ header {
     background-image: linear-gradient(to bottom, #33a8db, #1472b7);
     color: black;
     background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
 
     margin-bottom: 10px;
     margin-top: 10px;
@@ -92,21 +96,29 @@ header {
     margin: auto;
     text-align: center;
     display: block;
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: 60px;
+
+    /* Configurando a borda de cima da div */
+    border-top: 1px solid #33A8DB;
 
     /* Configurando o título - O QUE VOU APRENDER? */
     h1 {
         font-weight: 700;
         font-size: 32px;
         color: #33A8DB;
+        display: block;
+        margin: auto;
+        width: 800px;
     }
 
     /* Configurando os parágrafos */
     p {
         font-weight: 400;
         font-size: 16px;
-        margin-inline: 271px;
+        width: 800px;
+        display: block;
+        margin: 20px auto 20px;
     }
 
     /* Configurando os módulos */
@@ -167,8 +179,8 @@ header {
         font-size: 32px;
         font-weight: 700;
         text-align: center;
-        margin-inline: auto;
-        padding-inline: 300px;
+        margin: 20px auto 20px;
+        width: 749px;
     }
 
     img {
@@ -178,7 +190,9 @@ header {
 
     p {
         text-align: center;
-        padding-inline: 280px;
+        width: 789px;
+        display: block;
+        margin: 20px auto 20px;
     }
 }
 
