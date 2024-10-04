@@ -1,0 +1,117 @@
+body {
+    font-family: Raleway;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+header {
+
+    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.1), rgb(0, 0, 0)), url(Imagens/header_background.png);
+    padding: 20px;
+    margin-bottom: 0;
+    padding-bottom: 60px;
+
+    img {
+        background-color: rgb(0, 0, 0, 0.2);
+        border-radius: 50%;
+        padding-top: 13.797px;
+        padding-bottom: 13.797px;
+
+        display: block;
+        margin: auto;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+#title_header {
+    font-size: 40px;
+    font-weight: 900;
+
+    background-image: linear-gradient(to bottom, #33a8db, #1472b7);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#description_header {
+    font-weight: 400;
+    font-size: 20px;
+    margin-inline: 23.48px;
+    color: white;
+
+    padding-inline: 350px;
+
+    margin-top: auto;
+}
+
+#button_header {
+    width: 326px;
+    height: 57px;
+    background: transparent;
+    border: 2px solid;
+    border-image-source: linear-gradient(to bottom, #3BA1CD, #1572B7);
+    border-image-slice: 10;
+    color: #3BA1CD;
+
+    display: block;
+    margin: auto;
+
+    cursor: pointer;
+}
+
+#aprender {
+    margin: auto;
+    text-align: center;
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    h1 {
+        font-weight: 700;
+        font-size: 32px;
+        color: #33A8DB;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        margin-inline: 271px;
+    }
+
+    #modulos {
+        p {
+            background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(37, 37, 37), rgb(37, 37, 37), rgb(37, 37, 37), rgb(37, 37, 37));
+            padding: 16px 127px 16px 127px;
+            width: auto;
+            height: auto;
+            border-radius: 40px;
+            border: 1px solid #33A8DB;
+            margin-inline: 337px;
+        }
+
+        .modulos_palavra {
+            color: #33A8DB;
+        }
+
+    }
+}
+
+#transforme {
+    background-image: url(Imagens/Transforme.jfif);
+    border: 1px solid #33A8DB;
+    border-inline: 0px;
+
+    p {
+        font-weight: 900;
+        font-size: 40px;
+        padding-left: 219px;
+    }
+}
