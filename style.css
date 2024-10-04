@@ -64,11 +64,9 @@ header {
     /* Configurei a fonte */
     font-weight: 400;
     font-size: 20px;
-    /* Configurei o espaçamento */
-    margin-inline: 23.48px;
-    color: white;
 
-    padding-inline: 350px;
+    /* Configurei o espaçamento */
+    color: white;
 
     margin-top: auto;
 }
