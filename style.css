@@ -1,36 +1,50 @@
 body {
+    /* Altera a fonte de todo os body */
     font-family: Raleway;
+    /* Retira a margen padrão do body */
     margin: 0;
     background-color: black;
+    /* cor da fonte branca */
     color: white;
+
 }
 
 header {
 
+    /* colocando a imagem no fundo do header e junto colocando um gradiente em cima dessa imagem */
     background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.1), rgb(0, 0, 0)), url(Imagens/header_background.png);
+
     padding: 20px;
     margin-bottom: 0;
     padding-bottom: 60px;
 
+    /* Imagem principal do header - CSS DEVELOPER */
     img {
+        /* Criei o círculo atrás da img */
         background-color: rgb(0, 0, 0, 0.2);
         border-radius: 50%;
         padding-top: 13.797px;
         padding-bottom: 13.797px;
 
+        /* Centralizei a imagem no centro da tela */
         display: block;
         margin: auto;
     }
 
+    /* Todos os textos do header centralizados na tela */
     p {
         text-align: center;
     }
 }
 
+/* Título do header - TRILHA DE CSS DA DIO */
 #title_header {
+
+    /* Configurando a fonte */
     font-size: 40px;
     font-weight: 900;
 
+    /* Criando a cor em degrade */
     background-image: linear-gradient(to bottom, #33a8db, #1472b7);
     color: black;
     background-clip: text;
@@ -41,9 +55,12 @@ header {
     margin-top: 10px;
 }
 
+/* Texto do header - descrição ou explicação */
 #description_header {
+    /* Configurei a fonte */
     font-weight: 400;
     font-size: 20px;
+    /* Configurei o espaçamento */
     margin-inline: 23.48px;
     color: white;
 
@@ -52,43 +69,53 @@ header {
     margin-top: auto;
 }
 
+/* Botão do header - QUERO ME INSCREVER */
 #button_header {
+    /* Configurei o tamanho do botão */
     width: 326px;
     height: 57px;
+    /* Configurei a cor do botão, tanto interna como a borda */
     background: transparent;
     border: 2px solid;
     border-image-source: linear-gradient(to bottom, #3BA1CD, #1572B7);
     border-image-slice: 10;
     color: #3BA1CD;
-
+    /* Centralizando o botão e alterando o cursor */
     display: block;
     margin: auto;
-
     cursor: pointer;
 }
 
+/* A div da segunda seção da página */
 #aprender {
+    /* Configurando a tamanho da div */
     margin: auto;
     text-align: center;
     display: block;
     padding-top: 60px;
     padding-bottom: 60px;
 
+    /* Configurando o título - O QUE VOU APRENDER? */
     h1 {
         font-weight: 700;
         font-size: 32px;
         color: #33A8DB;
     }
 
+    /* Configurando os parágrafos */
     p {
         font-weight: 400;
         font-size: 16px;
         margin-inline: 271px;
     }
 
+    /* Configurando os módulos */
     #modulos {
         p {
+            /* Defini o background, criando o sombreado acima */
             background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(37, 37, 37), rgb(37, 37, 37), rgb(37, 37, 37), rgb(37, 37, 37));
+
+            /* Defini as dimensões dos módulos e sua borda */
             padding: 16px 127px 16px 127px;
             width: auto;
             height: auto;
@@ -97,6 +124,7 @@ header {
             margin-inline: 337px;
         }
 
+        /* Defini a cor das primeiras palvras dos módulos */
         .modulos_palavra {
             color: #33A8DB;
         }
@@ -104,6 +132,7 @@ header {
     }
 }
 
+/* A div da terceira seção da página */
 #transforme {
     background-image: url(Imagens/Transforme.jfif);
     border: 1px solid #33A8DB;
