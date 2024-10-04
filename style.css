@@ -92,7 +92,7 @@ header {
     margin: auto;
     text-align: center;
     display: block;
-    padding-top: 60px;
+    padding-top: 30px;
     padding-bottom: 60px;
 
     /* Configurando o título - O QUE VOU APRENDER? */
@@ -134,13 +134,71 @@ header {
 
 /* A div da terceira seção da página */
 #transforme {
+
+    /* Adiciona a imagem de fundo */
     background-image: url(Imagens/Transforme.jfif);
+    padding: 200px;
+
+    /* Configura a imagem para preencher toda a div */
+    background-size: cover;
+
+    /* Configura que a imagem é fixa, ou seja, acompanha a rolagem do site */
+    background-attachment: fixed;
+
+    /* Adiciona uma borda à div */
     border: 1px solid #33A8DB;
     border-inline: 0px;
 
+    /* Configura o texto */
     p {
+
         font-weight: 900;
         font-size: 40px;
-        padding-left: 219px;
+        text-shadow: 3px 3px #33A8DB;
+
+    }
+}
+
+#evolua {
+    margin-top: 60px;
+
+    h1 {
+        color: #33A8DB;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        margin-inline: auto;
+        padding-inline: 300px;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+
+    p {
+        text-align: center;
+        padding-inline: 280px;
+    }
+}
+
+footer {
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    height: 170px;
+    border-top: 1px solid #33A8DB;
+
+    img {
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    a {
+        color: #33A8DB;
+        text-decoration: none;
     }
 }
