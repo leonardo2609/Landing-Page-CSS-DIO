@@ -11,7 +11,7 @@ body {
 header {
 
     /* colocando a imagem no fundo do header e junto colocando um gradiente em cima dessa imagem */
-    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.2), rgb(0, 0, 0)), url(Imagens/header_background.png);
+    background: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(Imagens/header_background.png);
     background-size: cover;
     background-repeat: no-repeat;
 
