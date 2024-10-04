@@ -126,12 +126,13 @@ header {
             background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(37, 37, 37), rgb(37, 37, 37), rgb(37, 37, 37), rgb(37, 37, 37));
 
             /* Defini as dimensões dos módulos e sua borda */
-            padding: 16px 127px 16px 127px;
-            width: auto;
+            padding: 16px;
+            width: 496px;
             height: auto;
             border-radius: 40px;
             border: 1px solid #33A8DB;
-            margin-inline: 337px;
+
+            display: block;
         }
 
         /* Defini a cor das primeiras palvras dos módulos */
